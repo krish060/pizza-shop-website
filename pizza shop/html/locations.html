@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Slice - Locations</title>
+    <link rel="stylesheet" href="../css1/style.css">
+    <link rel="stylesheet" href="../css1/locations.css">
+    <link rel="stylesheet" href="../css1/responsive.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Urban Slice</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <!-- Conditionally show login/signup or profile/logout based on user authentication status -->
+                    <li><a href="login.html" id="login-link">Login</a></li>
+                    <li><a href="signup.html" id="signup-link">Sign Up</a></li>
+                    <li><a href="profile.html" id="profile-link" style="display:none;">Profile</a></li>
+                    <li><a href="logout.html" id="logout-link" style="display:none;">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <section class="locations">
+        <div class="container">
+            <h1>Our Locations</h1>
+            <div class="location">
+                <h2>Main Branch</h2>
+                <p>123 Pizza Street, Foodtown, USA</p>
+                <div class="map" id="main-branch-map"></div>
+            </div>
+            <!-- Add more locations if necessary -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Urban Slice. All rights reserved.</p>
+        </div>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="../js/locations.js"></script>
+    <script src="../js/api.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initLocationMap" async defer></script>
+</body>
+</html>

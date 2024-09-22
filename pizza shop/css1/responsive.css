@@ -1,0 +1,68 @@
+/* Base Styles for Smaller Devices */
+@media (max-width: 767px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+
+    header nav .logo {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .blog-post, .team-member {
+        flex: 1 1 100%;
+    }
+
+    .order form {
+        padding: 15px;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        margin: 0 10px;
+    }
+
+    .blog-post, .team-member {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+/* Desktop Devices */
+@media (min-width: 992px) {
+    .blog-post, .team-member {
+        flex: 1 1 calc(33.333% - 20px);
+    }
+
+    .order form {
+        padding: 20px;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact-info #map {
+        flex: 1;
+        margin-left: 20px;
+    }
+}

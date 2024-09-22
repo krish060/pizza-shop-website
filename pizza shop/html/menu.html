@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Slice - Menu</title>
+    <link rel="stylesheet" href="../css1/style.css">
+    <link rel="stylesheet" href="../css1/menu.css">
+    <link rel="stylesheet" href="../css1/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Urban Slice</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <!-- Conditionally show login/signup or profile/logout based on user authentication status -->
+                    <li><a href="login.html" id="login-link">Login</a></li>
+                    <li><a href="signup.html" id="signup-link">Sign Up</a></li>
+                    <li><a href="profile.html" id="profile-link" style="display:none;">Profile</a></li>
+                    <li><a href="logout.html" id="logout-link" style="display:none;">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="menu">
+        <div class="container">
+            <h1>Our Menu</h1>
+            <div class="menu-item">
+                <img src="../images/pizza (1).png" alt="Pepperoni Pizza">
+                <h2>Pepperoni Pizza</h2>
+                <p>Delicious pepperoni with mozzarella and marinara sauce.</p>
+                <p class="price">960 </p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="../images/pizza (2).png" alt="Vegetarian Pizza">
+                <h2>Vegetarian Pizza</h2>
+                <p>Loaded with fresh vegetables and topped with cheese.</p>
+                <p class="price">1000 </p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="../images/pizza (3).png" alt="Margherita Pizza">
+                <h2>Margherita Pizza</h2>
+                <p>Classic cheese pizza with fresh basil and tomato sauce.</p>
+                <p class="price">1200.99</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="../images/pizza (4).png" alt="BBQ Chicken Pizza">
+                <h2>BBQ Chicken Pizza</h2>
+                <p>Grilled chicken with barbecue sauce and cheese.</p>
+                <p class="price">1300.99</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <!-- Add more menu items as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Urban Slice. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/menu.js"></script>
+    <script src="../js/api.js"></script>
+</body>
+</html>

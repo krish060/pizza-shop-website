@@ -1,0 +1,41 @@
+.blog {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.blog-post {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.blog-post h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.blog-post .date {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.blog-post p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.read-more {
+    color: #e94e77;
+    text-decoration: none;
+    font-weight: bold;
+}
